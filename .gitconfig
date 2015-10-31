@@ -2,8 +2,8 @@
   excludesfile = ~/.gitignore
 
 [user]
-  name = artemave
-  email = artemave@gmail.com
+  name = maxrosecollins
+  email = max@maxrosecollins.com
 
 [alias]
   st = status
