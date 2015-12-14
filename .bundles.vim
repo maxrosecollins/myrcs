@@ -12,7 +12,7 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Plugin 'gmarik/Vundle.vim'
 
 " My Bundles here:
@@ -69,6 +69,11 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-obsession'
 Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-salve'
+Plugin 'tpope/vim-projectionist'
+Plugin 'tpope/vim-fireplace'
+Plugin 'guns/vim-clojure-static'
+Plugin 'guns/vim-clojure-highlight'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'kana/vim-textobj-user'
 Plugin 'rhysd/vim-textobj-ruby'
@@ -239,6 +244,6 @@ Plugin 'chrisbra/NrrwRgn'
 Plugin 'roman/golden-ratio'
 
 call vundle#end()            " required
-filetype plugin indent on     " required! 
+filetype plugin indent on     " required!
 
 colorscheme molokai " this has to come after 'filetype plugin indent on'

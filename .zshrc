@@ -133,3 +133,7 @@ fi
 
 source ~/.common_shrc
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+NGINX="/usr/local/bin/nginx"
+alias nginx='sudo env rvm_trust_rvmrcs_flag=1 $NGINX'
+alias stopnginx='sudo $NGINX -s stop'
