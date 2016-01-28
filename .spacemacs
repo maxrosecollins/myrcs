@@ -93,7 +93,7 @@
  evil-escape-key-sequence "kj"
  gofmt-command "goimports"
 
- source-directory "/Users/artem/projects/emacs-source/emacs-24.4/src"
+ source-directory "/Users/mrosecollins/projects/emacs-source/emacs-24.4/src"
  )
 
 ;; Initialization Hooks
